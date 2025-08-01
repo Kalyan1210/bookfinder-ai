@@ -82,7 +82,7 @@ class BookSearchEngine:
         
         # Try to get API key from Streamlit secrets
         try:
-            self.api_key = st.secrets.get("GOOGLE_API_KEY")
+            self.api_key = st.secrets.get("AIzaSyB8hhiXs9hQqL6RXYVZePT83VZMTgOyseY")
         except:
             self.api_key = None
     
