@@ -6,33 +6,33 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## 🌟 Features
+## Features
 
-### 🚀 **Real-Time Dynamic Search**
+### **Real-Time Dynamic Search**
 - **Live Google Books API Integration** - Fresh results every search, no stale database
 - **Intelligent Query Generation** - AI creates multiple strategic search terms from user input
 - **Parallel Processing** - Multiple searches run simultaneously for speed
 - **Smart Caching** - SQLite cache prevents redundant API calls
 
-### 🤖 **Advanced AI Recommendations**
+### **Advanced AI Recommendations**
 - **Natural Language Processing** - Understands user mood and preferences using TextBlob
 - **Content-Based Filtering** - TF-IDF vectorization for semantic similarity
 - **Multi-Factor Scoring** - Combines rating, relevance, quality, and user preferences
 - **Emotion Recognition** - Matches books to user's emotional state and goals
 
-### 🎯 **Smart Features**
+### **Smart Features**
 - **Quality Filtering** - Automatically filters low-quality results
 - **Duplicate Detection** - Removes duplicate books and authors
 - **Real-Time Analytics** - Shows search insights and recommendation explanations
 - **Multi-Source Links** - Direct links to Amazon, Google Books, Open Library, and more
 
-### 🎨 **Beautiful UI**
+### **Beautiful UI**
 - **Animated Book Character** - Interactive mascot with winking animation
 - **Modern Design** - Gradient backgrounds, smooth animations, responsive layout
 - **Advanced Filters** - Category, genre, rating, year, page count, language filters
 - **Search Intensity Control** - Light to Deep search modes
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.8+
@@ -59,7 +59,7 @@
 4. **Open your browser**
    - The app will automatically open at `http://localhost:8501`
 
-## 🎯 How It Works
+## How It Works
 
 ### 1. **Intelligent Query Generation**
 When you search for "data science", the AI generates multiple strategic queries:
@@ -88,7 +88,7 @@ The AI considers:
 - Preferred genres and categories
 - Reading difficulty and page length preferences
 
-## 📖 Usage Examples
+## Usage Examples
 
 ### Example 1: Learning Data Science
 **Input:** "I want to learn data science with Python for my career"
@@ -114,7 +114,7 @@ The AI considers:
 - Generates: advanced machine learning, research methods, PhD level, academic
 - Results: Graduate-level textbooks, research papers, advanced algorithms
 
-## 🛠️ Technical Architecture
+## Technical Architecture
 
 ### Core Components
 - **DynamicBookSearchEngine**: Handles real-time Google Books API integration
@@ -156,7 +156,7 @@ Customize search behavior in the sidebar:
 - Manual cache clearing available
 - Cache statistics and management tools
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Here's how to get started:
 
@@ -190,18 +190,18 @@ pip install -r requirements.txt
 streamlit run app.py --server.runOnSave true
 ```
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Google Books API** - For providing comprehensive book data
 - **Streamlit** - For the amazing web app framework
 - **TextBlob** - For natural language processing capabilities
 - **scikit-learn** - For machine learning algorithms
 
-## 📈 Roadmap
+## Roadmap
 
 ### Upcoming Features
 - [ ] **User Profiles** - Save preferences and reading history
@@ -217,13 +217,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [ ] **GPU Acceleration** - Faster similarity calculations
 - [ ] **CDN Integration** - Faster image loading
 
-## 📞 Support
+## Support
 
 - **Issues**: [GitHub Issues](https://github.com/yourusername/bookfinder-ai/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/yourusername/bookfinder-ai/discussions)
 - **Email**: your.email@example.com
 
-## 🌟 Star History
+## Star History
 
 If you find this project helpful, please consider giving it a star! ⭐
 
